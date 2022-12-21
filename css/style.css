@@ -55,6 +55,7 @@ body {
 }
 
 .bars{
+    
     font-size: 40px;
     color: #000000;
 }
@@ -76,42 +77,6 @@ a.active, a:hover {
     transition: 0.2s;
 }
 
-@media only screen and (max-width: 780px) {
-
-    #hero .hero-section{
-    width: 100%;
-    }
-
-    .logo{
-
-    }
-
-    .hamburger{
-        display: block;
-        cursor: pointer;
-        
-    }
-    .hamburger .line{
-        width: 30px;
-        height: 3px;
-        background: #001763;
-        margin: 6px 0;
-    }
-    .nav-nav ul{
-        display: none;
-    }
-    .bars{
-        display: none;
-    }
-    .nav-nav{
-        position: absolute;
-        top: 80px;
-        left: 0;
-        right: 0;
-        width: 100vh;
-        
-    }
-}
 
 
 /* Hero */
@@ -659,4 +624,92 @@ footer {
 .payment-p{
 padding-bottom: 10px;
 padding-top: 7px;
+}
+
+@media (max-width: 780px) {
+
+    #hero .hero-section{
+    width: 100%;
+    }
+
+    .logo{
+
+    }
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: #001763;
+        margin: 6px 0;
+    }
+    .nav-nav ul{
+        display: none;
+    }
+    .bars{
+        display: none;
+    }
+    .nav-nav{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vh;
+        
+    }
+}
+
+@media (max-width: 880px) {
+
+    #hero .hero-section{
+    width: 100%;
+    }
+
+    .logo{
+
+    }
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: #001763;
+        margin: 6px 0;
+    }
+    .nav-nav ul{
+        display: none;
+    }
+    .bars{
+        display: none;
+    }
+    .nav-nav{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vh;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .what-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #what-we-do .what-back{
+        /* display: none; */
+    }
+    
 }
