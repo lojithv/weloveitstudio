@@ -22,7 +22,7 @@
     <section id="hero">
         <div class="container">
             <a href="/"><img class="logo" src="./img/logo.png"></a>
-            <div class="hamburger">
+            <div class="hamburger" onclick="myFunction()">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
@@ -37,6 +37,16 @@
                 </ul>
                 <li><a class="bars" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
             </nav>
+        </div>
+        <div class="topnav">
+            <div id="myLinks">
+                <a href="#">home</a>
+                <a href="#contact">About Canndo</a>
+                <a href="#about">Teachers</a>
+                <a href="#about">About</a>
+                <a href="#about">Projects</a>
+                <a href="#about">Vote for a Teacher</a>
+              </div>
         </div>
 
         <!-- Hero-img -->
@@ -327,7 +337,17 @@
 
     </footer>
 
-
+<script>
+function myFunction() {
+    console.log("open")
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 
 </body>
 
