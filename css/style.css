@@ -177,6 +177,12 @@ a.active, a:hover {
     flex-direction: row;  
 }
 
+.what-img-child{
+    display: inline;
+    flex-direction: row;
+}
+
+
 #what-we-do .whatImg{ 
     float: left;
     width: 700px;
@@ -663,10 +669,19 @@ padding-top: 7px;
     }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 1024px) {
 
     #hero .hero-section{
     width: 100%;
+    height: 51vh;
+    background-image: url(../img/hero-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
     }
 
     .logo{
@@ -703,13 +718,300 @@ padding-top: 7px;
         align-items: center;
     }
 
+    .hero-text{
+        margin-left: 40px;
+        width: 620px;
+        margin-top: 50px;
+    }
+
+    .hero-section .hero-heading {
+        color: #ffffff;
+        font-size: 37px;
+        line-height: 50px;
+        padding-bottom: 22px;
+    }
+
+    .hero-section .hero-desc{
+        color: #ffffff;
+        margin-bottom: 40px;
+
+    }
+
+    .hero-section .hero-btn{
+        background: #45A2DC;
+        padding: 15px 147px;
+        border-radius: 32px;
+        color: #ffffff;
+        font-weight: 500;
+    }
+    .hero-section .featureImage img {
+        float: right;
+        width: 100%;
+        height: 400px;
+        margin-top: 13px;
+    }
+
+
+
     .what-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        margin-top: -565px;
     }
+
+    .what-img-child{
+        flex-direction: row;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #what-we-do .whatImg {
+        float: left;
+        width: 453px;
+        height: 37vh;
+        z-index: 6;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #what-we-do .whatText {
+        float: right;
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-right: 10px;
+        width: 400px;
+        position: relative;
+    }
+
+    #what-we-do h1 .big {
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 60px;
+        color: #1754A3;
+    }
+
+    #what-we-do h1 .small {
+        font-size: 50px;
+        font-weight: 700;
+        color: #1754A3;
+    }
+
+    .whatText .p1{
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    #what-we-do a {
+        background-color: #45A2DC;
+        border: none;
+        color: #ffffff;
+        padding: 10px 60px 10px 60px;
+        
+        text-align: center;
+        text-decoration: none;
+        font-size: 13px;
+        border-radius: 30px;
+        margin-left: 0px !important;
+        position: relative;
+        z-index: 11;
+    }
+
     
     #what-we-do .what-back{
         /* display: none; */
     }
+
+    .teachers {
+        margin-top: 40px;
+        margin-left: 10px;
+        position: relative;
+        display: inline-block;
+    }
+
+    .teachers .big2 {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 30px;
+        color: #1754A3;
+    }
+    .teachers h1 {
+        margin-bottom: 5px;
+    }
+
+    .teachers .small2 {
+        font-size: 17px;
+        font-weight: 700;
+        color: #1754A3;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .box-para {
+        display: inline-block;
+        background-color: #45A2DC;
+        float: right;
+        width: 500px;
+        margin-top: 35px;
+        padding: 24px 50px 20px 40px;
+        justify-content: center;
+        font-size: 13px;
+        color: #ffffff;
+    }
+
+    .tdetails {
+        padding: 23px 6px 26px 13px;
+        display: inline-block;
+        background-color: #1754A3;
+        color: #ffffff;
+        width: 60%;
+    }
+
+    .voting {
+        display: inline-block;
+        position: relative;
+        float: right;
+        width: 101px;
+
+    }
+
+    .tprofile {
+        padding: 6px 26px 6px 24px;
+            background-color: #001763;
+            color: #ffffff;
+            text-decoration: none;
+            text-align: center;
+        }
+
+    .tvote {
+        padding: 5px 5px 18px 0px;
+        background-color: #45A2DC;
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    #c1 {
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
     
+    #c2 {
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+    #c3 {
+        margin-bottom: 25px;
+    }
+    #c4 {
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+    #c5 {
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+    #c6 {
+ 
+        margin-bottom: 25px;
+    }
+
+    .pro-back {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 92vh;
+        background-image: url(../img/projects-img.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        display: inline-block;
+        flex-direction: row;
+        opacity: 100%;
+    }
+
+    .pro-head {
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 100px;
+        font-size: 50px;
+        color: #1754A3;
+    }
+
+    .pro-container {
+        margin-top: -720px;
+        position: relative;
+        margin-bottom: 100px;
+        display: flex;
+    }
+
+    .donate-container {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        background-color: #45A2DC;
+        width: 100%;
+        height: 500px;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .donation-details {
+        max-width: 459px;
+        position: relative;
+    }
+    .donations {
+        max-width: 560px;
+        position: relative;
+        display: inline-block;
+
+    }
+
+    .dprices1{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .d-d-h {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 45px;
+        padding-bottom: 17px;
+    }
+
+    footer {
+        padding: 0px 50px 0px 50px;
+        background: #1754A3;
+        height: auto;
+        width: 100%;
+        padding-top: 40px;
+        color: #ffffff;
+        padding-bottom: 50px;
+    }
+
+    .footer-content .links{
+        display: flex;
+        width: 73%;
+    }
+    .footer-nav1 > ul > li{
+        padding-right: 25px;
+        font-size: 13px;
+    }
+
+    .flogo{
+        width: 24%;
+    }
+   
+   
 }
